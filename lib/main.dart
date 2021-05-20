@@ -43,6 +43,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void initState() {
     // TODO: implement initState
     super.initState();
+    _getBatteryLevel();
   }
 
   @override
